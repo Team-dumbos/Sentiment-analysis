@@ -3,6 +3,7 @@ words = file.readlines()
 
 dictionary = {}
 
+
 for word in words:
 	dictionary[word.split('\t')[0]] = int(word.split('\t')[1].split('\n')[0])
 
@@ -21,5 +22,6 @@ if score > 0:
 if score == 0:
 	print("neutral")
 
-
 input()
+
+
