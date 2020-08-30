@@ -22,5 +22,7 @@ def rank(msg):
 	if score == 0:
 		print("neutral")
 
+	return score
+
 
 
